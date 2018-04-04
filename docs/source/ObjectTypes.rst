@@ -13,8 +13,7 @@ Point Layer
 -----------
 
 `Sphere <#sphere>`__ \| `Cylinder <#cylinder>`__ \| `Cone <#cone>`__ \|
-`Box <#box>`__ \| `Disk <#disk>`__ \| `Icon <#icon>`__ \| `JSON
-model <#json-model>`__ \| `COLLADA model <#collada-model>`__
+`Box <#box>`__ \| `Disk <#disk>`__
 
 
 .. index:: Sphere
@@ -203,117 +202,6 @@ Disk with specified radius, orientation, color and transparency
 
    </td></tr></table>
 
-
-.. index:: Icon
-
-Icon
-~~~~
-
-Image which always faces towards the camera
-
-.. raw:: html
-
-   <table><tr><td width="256">
-
-|image06|
-
-.. raw:: html
-
-   </td><td>
-
-**Specific settings** :
-
-* Image file
-    File path.
-* Scale
-    Numerical value.
-
-**Origin** :
-
-    center of image
-
-**three.js object class:**
-
-    `Sprite <http://threejs.org/docs/#Reference/Objects/Sprite>`__
-
-.. raw:: html
-
-   </td></tr></table>
-
-
-.. index:: JSON model
-
-JSON model
-~~~~~~~~~~
-
-.. raw:: html
-
-   <table><tr><td width="256">
-
-|image07|
-
-.. raw:: html
-
-   </td><td>
-
-**Specific settings** :
-
-* JSON file
-    File path.
-* Scale
-    Numerical value.
-* Rotation (x)
-    In degrees.
-* Rotation (y)
-    In degrees.
-* Rotation (z)
-    In degrees.
-
-**Origin** :
-
-    origin of model
-
-.. raw:: html
-
-   </td></tr></table>
-
-
-.. index:: COLLADA model
-
-COLLADA model
-~~~~~~~~~~~~~
-
-.. raw:: html
-
-   <table><tr><td width="256">
-
-|image08|
-
-.. raw:: html
-
-   </td><td>
-
-**Specific settings** :
-
-* COLLADA file
-    File path (.dae). If the model has texture images, they need to be
-    copied to the destination directory manually.
-* Scale
-    Numerical value.
-* Rotation (x)
-    In degrees.
-* Rotation (y)
-    In degrees.
-* Rotation (z)
-    In degrees.
-
-**Origin** :
-
-    origin of model
-
-.. raw:: html
-
-   </td></tr></table>
 
 --------------
 
@@ -576,12 +464,6 @@ You can add side to each polygon if you want.
 
 **Specific settings** :
 
-* Border color
-* Side
-    Check this option to add side to each polygon.
-* Side color
-* Side lower Z
-    Z coordinate of lower edge of side.
 
 **three.js classes:**
 
